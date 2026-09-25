@@ -1,0 +1,25 @@
+# Dependencies and generated output
+node_modules/
+dist/
+dist-ssr/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.log
+server/src/swagger-output.json
+server/.kis-token-cache.json
+services/market-reaction/data/
+
+# Local secrets; every service template remains versioned.
+.env
+.env.*
+!**/.env.example
+
+# Editors and OS files
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
